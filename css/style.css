@@ -15,7 +15,7 @@
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --transition-base: 0.3s ease;
   --max-width: 1140px;
-  --section-padding: 64px 0;
+  --section-padding: 48px 0;
 }
 
 /* ========================================
@@ -199,7 +199,7 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 140px 24px 80px;
+  padding: 100px 24px 48px;
   position: relative;
   background: radial-gradient(ellipse at 50% 0%, rgba(88, 166, 255, 0.08) 0%, transparent 60%);
 }
@@ -765,8 +765,8 @@ summary:focus-visible {
    Responsive — Tablet (768px)
    ======================================== */
 @media (max-width: 768px) {
-  .section { padding: 48px 0; }
-  .section__heading { font-size: 1.75rem; margin-bottom: 28px; }
+  .section { padding: 36px 0; }
+  .section__heading { font-size: 1.75rem; margin-bottom: 24px; }
 
   /* Nav */
   .nav__toggle {
@@ -852,7 +852,7 @@ summary:focus-visible {
    Responsive — Mobile (480px)
    ======================================== */
 @media (max-width: 480px) {
-  .section { padding: 40px 0; }
+  .section { padding: 32px 0; }
 
   .hero { padding: 100px 20px 60px; }
   .hero__name { font-size: 2rem; }
